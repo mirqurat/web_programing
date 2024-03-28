@@ -1,0 +1,26 @@
+div{
+    height: 50px;
+    width: 50px;
+
+    border-radius: 50%;
+    border: 5px dashed rgb(130, 122, 122);
+   /* border-top: 5px dotted rgb(145, 183, 200);
+    border-bottom: 5px dotted rgb(223, 104, 104);
+    border-left: 5px dotted rgb(57, 54, 54);*/
+    
+    margin-top: 200px;
+   animation:  spinAnimation 4s ease infinite normal;
+ /*display: flex;
+ align-items: center;
+ margin: 250px;*/
+    
+}
+@keyframes spinAnimation {
+    from{
+        transform: rotate(0deg);
+    }
+        to{
+            transform: rotate(360deg);
+        
+    }
+}

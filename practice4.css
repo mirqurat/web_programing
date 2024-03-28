@@ -1,0 +1,23 @@
+div{
+    border: 2px solid rgb(215, 23, 23); ;
+    height: 100px;
+    width: 100px;
+}
+#navbar{
+    width: 700px;
+    height: 50px;
+    background-color: rgb(70, 122, 234);
+}
+button{
+    background-color: coral;
+}
+#two{
+    height: 100px;
+    background-color: darkolivegreen;
+    opacity: 0.5;
+}
+#three{
+    height: 200px;
+    background-color: indigo;
+    opacity: 1;
+}

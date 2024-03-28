@@ -1,0 +1,14 @@
+h1{
+    color: blue;
+    text-align: center;
+    text-transform: capitalize;
+}
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#outer{
+    line-height: 25px;
+}
+#inner{
+    line-height: 10px;
+}

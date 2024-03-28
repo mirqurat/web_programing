@@ -1,0 +1,9 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-image:  url("pexels-pixabay-45853.jpg");
+    background-size: cover;
+    background-color: blue;
+margin-left: 1100px;
+position:fixed;
+}

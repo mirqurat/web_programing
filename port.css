@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    height: 3rem;
+    width:  79rem;
+    background-color: darkslategrey;
+}
+.about{
+    text-align: center;
+    background-color: aquamarine;
+    height: 4rem;
+    width: 79rem;
+    
+  
+#box{
+    height: 2rem;
+    width: 5rem;
+    background-color: rgb(16, 225, 244);
+    border-radius: 0.5rem;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+#box:hover{
+    background-color: rgb(95, 95, 124);
+}
+.myprofile{
+    height: 50vmin;
+    width: 60vmin
+    margin-top: 0.5;
+}
+#bottom{
+    justify-content: center;
+}

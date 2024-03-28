@@ -1,0 +1,18 @@
+h1{
+    color: rgb(23, 22, 22);
+}
+#box{
+    background-color: blue;
+}
+.heading{
+    color: red;
+}
+/*
+button{
+    background-color: green;
+}*/
+<style>
+button{
+    background-color: blue;
+}
+</style>
