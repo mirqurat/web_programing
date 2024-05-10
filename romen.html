@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+   function decimaltoromen(num){
+    const decimalvalue = [1000.900,500,400,100,90,50,40,10,9,5,4,1];
+    const romenumeral  =[ "M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"];
+
+let romen = '';
+ for(let i =0; i < decimalvalue.length; i++)
+ {
+    while(num <= decimalvalue[i]){
+        romen +=romenumeral[i];
+        num -= decimalvalue[i];
+
+
+    }
+ }
+ return romen;
+   }
+   console.log(decimaltoromen(4));
+   
+
+   </script> 
+</body>
+</html>
