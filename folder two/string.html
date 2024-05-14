@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    const findChar = (input, startIndex, endIndex) => { 
+    const startCheck =  
+        input.startsWith(startIndex); 
+    const endCheck =  
+        input.endsWith(endIndex); 
+  
+    return startCheck && endCheck; 
+}; 
+  
+const input = "thisisjsclass"; 
+const startIndex = "t"; 
+const endIndex = "q"; 
+  
+if (findChar(input, startIndex, endIndex)) { 
+    console.log("True"); 
+} else { 
+    console.log("False"); 
+}
+   </script> 
+</body>
+</html>
